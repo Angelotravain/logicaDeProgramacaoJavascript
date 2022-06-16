@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso javascript</title>
+    <script src="./aula.js"></script>
+    <script src="./parte2aula.js"></script>
+    <script src="imprimir.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: white;
+        }
+
+        label {
+            position: absolute;
+            width: 500px;
+            height: 300px;
+            border: 3px solid red;
+        }
+        label p{
+            text-decoration: none;
+            font-size: 3em;
+            font-family: sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Sequência de Fibonacci</h1>
+    <label>
+        Digite aqui seu número:
+        <input type="text" id="textEnter">
+        <button onclick="sequenciaFibonacci()" id="clickText">Imprima sua menssagem</button>
+        <p id="exitText"></p>
+
+    </label>
+</body>
+
+</html>
